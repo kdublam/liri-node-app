@@ -1,0 +1,33 @@
+{
+  "name": "liri-language-interpretation-and-recognition-interface",
+  "version": "1.0.0",
+  "description": "Language Interpretation and Recognition Interface",
+  "main": "liri.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kdublam/liri-node-app.git"
+  },
+  "keywords": [
+    "liri",
+    "language",
+    "interpretation",
+    "recognition",
+    "interface",
+    "node"
+  ],
+  "author": "Kevin Lam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kdublam/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/kdublam/liri-node-app#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^7.0.0",
+    "moment": "^2.24.0",
+    "node-spotify-api": "^1.1.1"
+  }
+}
