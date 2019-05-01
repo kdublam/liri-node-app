@@ -25,6 +25,17 @@ if (command === "movie-this") {
 if (command === "do-what-it-says") {
   doThis()
 }
+else if(command === undefined){
+  console.log("                                            ")
+  console.log("Please choose one of the following commands and try again:")
+  console.log("                                            ")
+  console.log("concert-this: Find concerts for your favorite artist")
+  console.log("spotify-this-song: Look up your favorite song")
+  console.log("movie-this: Find information on your favorite movie")
+  console.log("do-what-it-says: read a command from a text file")
+  console.log("                                            ")
+
+}
 
 // console.log(argument)
 

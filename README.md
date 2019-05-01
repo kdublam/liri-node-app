@@ -1,5 +1,7 @@
 # liri-node-app
 
+### Live Demo: [Click here to watch now!](https://drive.google.com/file/d/1T8OixubZveIECxJRxoxHoVQEZ-qMXLm5/view?usp=sharing)
+
 ## What it is
 - A Node.js app that takes the input from the user via CLI and outputs the appropriate information depending on the user command
 - User can ask Liri for concert info of their favorite artists, find a song that they like, and look up movie info of their favorite movies
