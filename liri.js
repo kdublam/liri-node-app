@@ -25,7 +25,7 @@ if (command === "movie-this") {
 if (command === "do-what-it-says") {
   doThis()
 }
-else if(command === undefined){
+else if (command === undefined) {
   console.log("                                            ")
   console.log("Please choose one of the following commands and try again:")
   console.log("                                            ")
@@ -48,9 +48,9 @@ function concertThis(artist) {
         console.log("Venue:      " + key.venue.name)
         console.log("Location:   " + key.venue.city + ", " + key.venue.country)
         console.log("Date:       " + moment(key.datetime).format("L"))
-        console.log("                                       ")
+        console.log("\n")
         console.log("=======================================")
-        console.log("                                       ")
+        console.log("\n")
 
       }
 
@@ -61,8 +61,8 @@ function concertThis(artist) {
 
 
 function spotifyThis(song) {
-  if (song === undefined) {
-    song = "thesign";
+  if (song == "") {
+    song = "the sign base of ace";
   }
 
   // Spotify API request (if an object is returned, output the first search result's artist(s), song, preview link, and album)
@@ -88,6 +88,9 @@ function spotifyThis(song) {
 }
 
 function movieThis(movie) {
+  if (movie === "") {
+    movie = "mr nobody";
+  }
   axios.get("http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=trilogy").then(
     function (response) {
       // console.log(response.data);
